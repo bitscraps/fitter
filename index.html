@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<LINK href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="furniture_creator.js"></script>
+		<script type="text/javascript" src="prototype.js"></script>
+		<script type="text/javascript" src="scriptaculous.js?load=effects,dragdrop"></script>
+	</head>
+	
+	<body>
+		<div id="left-pane">
+			<div id="room-layout">
+	
+			</div>
+			<div id="controls">
+				<button onclick="deleteFurniture()">Remove</button>
+				<button onclick="rotateFurnitureLeft()">Rotate Left 90&deg;</button>
+				<button onclick="rotateFurnitureRight()">Rotate Right 90&deg;</button>
+			</div>
+		</div>	
+		<div id="right-pane">
+			<div class="furniture" onclick="createFurniture('Micke Desk', 73, 50)">
+				<div class="image-container">
+					<img src="http://www.ikea.com/gb/en/images/products/micke-desk__0104240_PE251187_S4.JPG">
+				</div>
+				<div class="details">
+					<p>
+						<strong>Micke Desk</strong><br/>
+						Price: 35.99<br>
+						Width: 73cm<br>
+						Depth: 50cm 
+					</p> 
+				</div>
+			</div>
+			
+			<div class="furniture" onclick="createFurniture('Vika Amon/Vika Adils Corner Table', 120, 120)">
+				<div class="image-container">
+					<img src="http://www.ikea.com/gb/en/images/products/vika-amon-vika-adils-corner-table__0148503_PE306799_S4.JPG">
+				</div>
+				<div class="details">
+					<p>
+						<strong>Vika Amon/Vika Adils Corner Table</strong><br/>
+						Price: 42.50<br>
+						Width: 120cm<br>
+						Depth: 120cm 
+					</p> 
+				</div>
+			</div>
+			
+			<div class="furniture" onclick="createFurniture('Vika Amon/Vika Adils', 150, 75)">
+				<div class="image-container">
+					<img src="http://www.ikea.com/gb/en/images/products/vika-amon-vika-adils-table__0148731_PE307024_S4.JPG">
+				</div>
+				<div class="details">
+					<p>
+						<strong>Vika Amon/Vika Adils Desk</strong><br/>
+						Price: 29.00<br>
+						Width: 150cm<br>
+						Depth: 75cm 
+					</p> 
+				</div>
+			</div>
+			
+			<div class="furniture" onclick="createFurniture('Vika Amon/Vika Adils', 200, 60)">
+				<div class="image-container">
+					<img src="http://www.ikea.com/gb/en/images/products/vika-amon-vika-adils-table__0148732_PE307025_S4.JPG">
+				</div>
+				<div class="details">
+					<p>
+						<strong>Vika Amon/Vika Adils Desk</strong><br/>
+						Price: 37.50<br>
+						Width: 200cm<br>
+						Depth: 60cm 
+					</p> 
+				</div>
+			</div>
+			
+			<div class="furniture" onclick="createFurniture('Vika Amon/Vika Adils', 100, 60)">
+				<div class="image-container">
+					<img src="http://www.ikea.com/gb/en/images/products/vika-amon-vika-adils-table__0148504_PE306800_S4.JPG">
+				</div>
+				<div class="details">
+					<p>
+						<strong>Vika Amon/Vika Adils Desk</strong><br/>
+						Price: 16.99<br>
+						Width: 100cm<br>
+						Depth: 60cm 
+					</p> 
+				</div>
+			</div>
+			
+			<div class="furniture" onclick="createFurniture('Expedit', 150, 75)">
+				<div class="image-container">
+					<img src="http://www.ikea.com/gb/en/images/products/expedit-desk-combination__0122339_PE278615_S4.JPG">
+				</div>
+				<div class="details">
+					<p>
+						<strong>Expedit Desk</strong><br/>
+						Price: 29.00<br>
+						Width: 154cm<br>
+						Depth: 79cm 
+					</p> 
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
